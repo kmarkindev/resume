@@ -104,17 +104,16 @@ profile:
   order: 1
   title: About Me
   description: |
-    The profile section in a resume is a brief summary of the applicant's skills, qualifications, and experience. The purpose of this section is to provide a snapshot of the applicant's professional background and highlight their most relevant accomplishments and strengths. It may include information such as the applicant's career objectives, years of experience, areas of expertise, and key achievements.
-
-    A well-crafted profile section can help to grab the attention of potential employers and encourage them to read on and learn more about the applicant's qualifications and experience.
+    ToDo
+    ToDo
+    ToDo
 
 experience:
   show: true
   order: 2
   title: Experience
   description: |
-    The experiences section in a resume is a section where you list your previous work experiences and accomplishments. It typically includes information about your previous job titles, companies you worked for, the dates of your employment, and your key responsibilities and achievements in each role. This section is important because it gives potential employers a sense of your work history and the skills and expertise you have developed over time. It can also help demonstrate your ability to contribute value to a new organization based on your past achievements.
-
+    
   items:
     - company: Second Company
       link: '#'
@@ -139,8 +138,8 @@ experience:
         + Second
 
 project:
-  show: true
-  order: 3
+  show: false
+  order: 4
   title: Projects
   description: |
     The project section in a resume is a section where you can highlight any significant projects that you have completed during your education, work experience, or personal endeavors. This section provides a detailed description of your projects that can showcase your skills, abilities, and achievements.
@@ -170,7 +169,7 @@ project:
 
 skill:
   show: true
-  order: 4
+  order: 3
   title: Skills
   description: |
 
@@ -196,33 +195,22 @@ skill:
 
 education:
   show: true
-  order: 5
+  order: 4
   title: Education
   description: |
-    The education section in a resume is where you provide information about your academic background, including any degrees. In this section, you should include the name and location of the institution where you received your degree, the name of the degree or program you completed, and the date of graduation. If you have earned multiple degrees, list them in reverse chronological order, with the most recent degree first.
-
-    In addition to basic information about your education, you may also want to include any academic honors or awards you received, relevant coursework or projects, and your GPA if it is 3.0 or above. If you have recently graduated and do not have much work experience yet, highlighting your education and academic achievements can help demonstrate your potential to succeed in the workplace.
-
+    
   items:
-    - institution: Example University
-      link: '#'
-      date: 2015 - 2018
-      major: Machine Learning
-      degree: Master
-      description: |
-        Additional information for this institution.
-        + First
-        + Second
-
-    - institution: Example University
-      link:
-      date: 2011 - 2015
-      major: Computer Science
+    - institution: Belarusian State University of Informatics and Radioelectronics (BSUIR)
+      link: 'https://www.bsuir.by/en/'
+      major: Software Engineering
       degree: Bachelor
       description: |
-        Additional information for this institution.
-        + First
-        + Second
+
+    - institution: Vitebsk State Technological College (VSTC)
+      link: 
+      major: Software Engineering
+      degree: Ыecondary Зrofessional Education
+      description: |
 
 certificate:
   show: false
@@ -335,7 +323,7 @@ organization:
     This section can be especially valuable for candidates seeking positions in the non-profit sector, social work, or community engagement roles, where experience in social or cultural organizations can demonstrate a genuine passion for social causes and a willingness to work collaboratively towards social change. However, it is important to only include organizations that are relevant to the job you are applying for, and avoid listing organizations that may be controversial or potentially offensive.
 
 language:
-  show: true
+  show: false
   order: 11
   title: Languages
   description: |
