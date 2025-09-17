@@ -183,40 +183,23 @@ skill:
 
   items:
     - name: Skill A
-      level: 5
+      level: 
     - name: Skill B
-      level: 4
+      level: 
     - name: Skill C
-      level: 3
+      level: 
     - name: Skill D
-      level: 4
+      level: 
     - name: Skill E
-      level: 3
+      level: 
     - name: Skill F
-      level: 1
+      level: 
     - name: Skill G
-      level: 4
+      level: 
     - name: Skill H
-      level: 4
+      level: 
     - name: Skill I
-      level: 3
-
-  groups:
-    - name: Group A Skills
-      item:
-        - Skill A
-        - Skill B
-        - Skill C
-        - Skill D
-    - name: Group B Skills
-      item:
-        - Skill E
-        - Skill F
-        - Skill G
-    - name: Group C Skills
-      item:
-        - Skill H
-        - Skill I
+      level: 
 
 education:
   show: true
