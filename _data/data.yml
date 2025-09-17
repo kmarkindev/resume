@@ -3,17 +3,17 @@ meta:
   language: en              # text language, the value is HTML lang attribute value, default is "en"
 
 basic:
-  name: Foo Bar                      # name
-  title: Backend Developer           # job title
+  name: Kirill Markin                      # name
+  title: C++ Developer           # job title
   avatar:
-    show: true                       # show or hide avatar
+    show: false                       # show or hide avatar
     path: /assets/images/profile.png # file path or link to your avatar
 
 contact:
-  location: Beijing, China  # location, text or markdown link syntax
-  email: me@example.com     # email address
-  phone: +86-111-2222-3333  # phone number, the format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
-  website: example.com      # site link without schema, like example.com, will automatically prepend "https://"
+  location: Minsk, Belarus  # location, text or markdown link syntax
+  email: kmarkindev@gmail.com     # email address
+  phone: #+86-111-2222-3333  # phone number, the format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
+  website: #example.com      # site link without schema, like example.com, will automatically prepend "https://"
 
   gender:                   # gender or pronoun
   birthday:                 # birthday
@@ -25,7 +25,7 @@ contact:
   # Please copy the <> part of the comment in the link to your profile on the relevant site and paste it here.
 
   # programming
-  github:                   # https://github.com/<username>
+  github: kmarkindev                   # https://github.com/<username>
   gitlab:                   # https://gitlab.com/<username>
   bitbucket:                # https://bitbucket.com/<username>
   git:                      # selfhost git site link without schema "https://"
@@ -60,7 +60,7 @@ contact:
   producthunt:              # https://www.producthunt.com/@<username>
 
   # cv
-  linkedin:                 # https://linkedin.com/in/<username>
+  linkedin: kmarkindev                 # https://linkedin.com/in/<username>
   indeed:                   # https://my.indeed.com/p/<id>
   xing:                     # https://www.xing.com/profile/<username>
   fiverr:                   # https://www.fiverr.com/<username>
@@ -69,7 +69,7 @@ contact:
   # chat
   wechat:                   # wechat id, text or markdown link syntax
   whatsapp:                 # https://wa.me/<number>
-  telegram:                 # https://t.me/<username>
+  telegram: kmarkindev                 # https://t.me/<username>
   messenger:                # https://m.me/<username>
   line:                     # https://line.me/R/ti/p/@<lineid>
   viber:                    # https://vb.me/<username>
