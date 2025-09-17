@@ -227,12 +227,10 @@ small {
           display: inline-flex;
           align-items: center;
           justify-content: end;
-          flex-basis: 30%;
-
-          .skill-name::after {
-            content: "\00a0\00a0";
-            font-family: initial;
-          }
+          background-color: #d3d3d347;
+          border-radius: 5px;
+          margin: 3px;
+          padding: 3px 10px;
 
           .skill-level {
             display: inline-flex;
