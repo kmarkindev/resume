@@ -11,6 +11,8 @@ await page.goto('https://kmarkindev.github.io/resume/gamedev', {
 
 await page.bringToFront();
 
+console.log(`Current working directory: ${process.cwd()}`);
+
 await page.pdf({
     path: './_site/testpdf.pdf',
     displayHeaderFooter: false,
