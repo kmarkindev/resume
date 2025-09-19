@@ -12,7 +12,7 @@ await page.goto('https://kmarkindev.github.io/resume/gamedev', {
 await page.bringToFront();
 
 await page.pdf({
-    path: '_site/testpdf.pdf',
+    path: './_site/testpdf.pdf',
     displayHeaderFooter: false,
     printBackground: true,
     landscape: false,
