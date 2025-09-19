@@ -38,13 +38,13 @@ jobs:
       - name: Build # Build html/css/js files
         uses: actions/jekyll-build-pages@v1
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: kmarkindev/upload-pages-artifact@142976382b1ffe64f454355b39fceed2b2254d95
       - name: Deploy to GitHub Pages # deploy files
         uses: actions/deploy-pages@v4
       - name: Generate PDF # now, when latest html/css/js was deployed, generate PDF based on it
         run: npm install && npm run generate
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: kmarkindev/upload-pages-artifact@142976382b1ffe64f454355b39fceed2b2254d95
       - name: Deploy to GitHub Pages # deploy everything again, but include generated PDF file now
         uses: actions/deploy-pages@v4
     environment:
