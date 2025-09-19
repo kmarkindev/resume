@@ -13,7 +13,8 @@ contact:
   location: Minsk, Belarus  # location, text or markdown link syntax
   email: kmarkindev@gmail.com     # email address
   phone: #+86-111-2222-3333  # phone number, the format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
-  website: #example.com      # site link without schema, like example.com, will automatically prepend "https://"
+  website: kmarkindev.github.io/portfolio/ #example.com      # site link without schema, like example.com, will automatically prepend "https://"
+  website_name: Portfolio
 
   gender:                   # gender or pronoun
   birthday:                 # birthday
@@ -23,81 +24,9 @@ contact:
 
   # ! Do not paste the link directly.
   # Please copy the <> part of the comment in the link to your profile on the relevant site and paste it here.
-
-  # programming
   github: kmarkindev                   # https://github.com/<username>
-  gitlab:                   # https://gitlab.com/<username>
-  bitbucket:                # https://bitbucket.com/<username>
-  git:                      # selfhost git site link without schema "https://"
-  leetcode:                 # https://leetcode.com/<username>
-  codeforces:               # https://codeforces.com/profile/<username>
-  codewars:                 # https://www.codewars.com/users/<username>
-  topcoder:                 # https://profiles.topcoder.com/<username>
-  huggingface:              # https://huggingface.co/<username>
-  codepen:                  # https://codepen.io/<username>
-  tryhackme:                # https://tryhackme.com/p/<username>
-
-  # research
-  googlescholar:            # https://scholar.google.com/citations?user=<username>
-  researchgate:             # https://www.researchgate.net/profile/<username>
-  orcid:                    # https://orcid.org/<id>
-  figshare:                 # https://figshare.com/authors/<name/id>
-  kaggle:                   # https://www.kaggle.com/<username>
-
-  # writing
-  medium:                   # https://medium.com/@<username>
-  wordpress:                # https://<username>.wordpress.com
-  blogger:                  # https://<username>.blogspot.com
-  devto:                    # https://dev.to/<username>
-
-  # creativity
-  figma:                    # https://www.figma.com/@<username>
-  behance:                  # https://www.behance.net/<username>
-  dribbble:                 # https://dribbble.com/<username>
-  artstation:               # https://www.artstation.com/<username>
-  pixiv:                    # https://www.pixiv.net/users/<id>
-  pinterest:                # https://www.pinterest.com/<username>
-  producthunt:              # https://www.producthunt.com/@<username>
-
-  # cv
   linkedin: kmarkindev                 # https://linkedin.com/in/<username>
-  indeed:                   # https://my.indeed.com/p/<id>
-  xing:                     # https://www.xing.com/profile/<username>
-  fiverr:                   # https://www.fiverr.com/<username>
-  freelancer:               # https://www.freelancer.com/u/<username>
-
-  # chat
-  wechat:                   # wechat id, text or markdown link syntax
-  whatsapp:                 # https://wa.me/<number>
   telegram: kmarkindev                 # https://t.me/<username>
-  messenger:                # https://m.me/<username>
-  line:                     # https://line.me/R/ti/p/@<lineid>
-  viber:                    # https://vb.me/<username>
-  threema:                  # https://threema.id/<userid>
-  signal:                   # signal username, text or markdown link syntax
-  wire:                     # wire username, text or markdown link syntax
-
-  # social
-  stackoverflow:            # https://stackoverflow.com/users/<id>
-  stackexchange:            # https://stackexchange.com/users/<id>
-  quora:                    # https://www.quora.com/profile/<username>
-  zhihu:                    # https://www.zhihu.com/people/<username>
-  goodreads:                # https://www.goodreads.com/user/show/<username>
-  strava:                   # https://www.strava.com/athletes/<id>
-  wikipedia:                # https://www.wikipedia.org/wiki/User:<username>
-  twitter:                  # https://twitter.com/<username>
-  x:                        # https://x.com/<username>
-  mastodon:                 # text, the format must be like "username@yourserver.com"
-  threads:                  # https://www.threads.net/@<username>
-  vk:                       # https://vk.com/<username>
-  weibo:                    # weibo username, text or markdown link syntax
-  instagram:                # https://instagram.com/<username>
-  unsplash:                 # https://unsplash.com/@<username>
-  _500px:                   # https://500px.com/p/<username>
-  youtube:                  # https://www.youtube.com/@<username>
-  tiktok:                   # https://www.tiktok.com/@<username>
-  snapchat:                 # https://www.snapchat.com/add/<username>
-  twitch:                   # https://www.twitch.tv/<username>
 
 profile:
   show: true
@@ -115,27 +44,27 @@ experience:
   description: |
     
   items:
-    - company: Second Company
-      link: '#'
-      tags: Full-time
-      date: 2018.03 - 2019.03
-      role: Backend Developer
-      location: Beijing
-      description: |
-        Your key responsibilities and achievements in the company.
-        + First
-        + Second
+    - company: Owls' Group
+      link: 'http://owlsgroup.net/'
+      location: Minsk, Belarus
+      roles:
+        - name: C++ Developer
+          date: 2023.03 - 2025.08
 
-    - company: First Company
-      link:
-      tags: Part-time, remote
-      date: 2017.03 - 2018.03
-      role: Backend Developer
-      location: Beijing
-      description: |
-        Your key responsibilities and achievements in the company.
-        + First
-        + Second
+          tags: Full-time, remote
+          description: |
+            Key responsibilities and achievements in the role.
+            + First
+            + Second
+
+        - name: PHP Developer
+          date: 2020.03 - 2023.02
+          tags: Full-time, remote
+          description: |
+            Key responsibilities and achievements in the role.
+            + First
+            + Second
+            
 
 project:
   show: false
@@ -174,24 +103,32 @@ skill:
   description: |
 
   items:
-    - name: Skill A
-      level: 
-    - name: Skill B
-      level: 
-    - name: Skill C
-      level: 
-    - name: Skill D
-      level: 
-    - name: Skill E
-      level: 
-    - name: Skill F
-      level: 
-    - name: Skill G
-      level: 
-    - name: Skill H
-      level: 
-    - name: Skill I
-      level: 
+    - C++
+    - Unreal Engine (UE)
+    - Blueprints
+    - Scripting
+    - Replication
+    - Network
+    - Gameplay Ability System (GAS)
+    - UMG
+    - CommonUI
+    - Behavior Tree
+    - Unreal Build Tool (UBT)
+    - Automation Test Framework
+    - Plugins
+    - SOLID
+    - GOF Patterns
+    - OOP
+    - Structures and Algorithms
+    - Linear Algebra
+    - Profiling
+    - GameDev
+    - CPU and GPU optimization
+    - DirectX 12
+    - Multithreading
+    - Perforce
+    - Git
+    - CI/CD
 
 education:
   show: true

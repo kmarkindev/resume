@@ -35,9 +35,9 @@
   {%- if contact.website %}
   {%- assign text = contact.website %}
   {%- assign link = "https://" | append: text %}
-  <div class="contact-item" title="Website">
+  <div class="contact-item" title="{{ contact.website_name }}">
     <i class="fa-solid fa-link"></i>
-    <a href="{{ link }}" title="{{ link }}" target="_blank">{{ text }}</a>
+    <a href="{{ link }}" title="{{ link }}" target="_blank">{{ contact.website_name }}</a>
   </div>
   {%- endif %}
 

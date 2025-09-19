@@ -15,43 +15,53 @@
 
     {%- if experience.items %}
     <div class="items">
-      {%- for item in experience.items %}
+      {%- for exp in experience.items %}
       <div class="item">
 
-        {%- if item.company %}
+        {%- if exp.company %}
         <div class="row">
           <div class="company">
-            {%- if item.link %}
-            <a href="{{ item.link }}" target="_blank">{{ item.company }}</a>
+            {%- if exp.link %}
+            <a href="{{ exp.link }}" target="_blank">{{ exp.company }}</a>
             {%- else %}
-            <span>{{ item.company }}</span>
+            <span>{{ exp.company }}</span>
             {%- endif %}
-            {%- if item.tags %}
-            <small>[{{ item.tags }}]</small>
+            {%- if exp.location %}
+            <div style="margin-left: 10px" class="location">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>{{ exp.location }}</span>
+            </div>
             {%- endif %}
-          </div>
-          <div class="date">
-            <span>{{ item.date }}</span>
           </div>
         </div>
+
+        {%- for role in exp.roles %}
+
+        <div style="margin-left: 15px">
 
         <div class="row">
           <div class="role">
-            <span>{{ item.role }}</span>
+            <span>{{ role.name }}</span>
+            {%- if role.tags %}
+              <small>[{{ role.tags }}]</small>
+            {%- endif %}
           </div>
-          {%- if item.location %}
-          <div class="location">
-            <i class="fa-solid fa-location-dot"></i>
-            <span>{{ item.location }}</span>
-          </div>
-          {%- endif %}
+            <div class="date">
+                <span>{{ role.date }}</span>
+            </div>
+
         </div>
 
-        {%- if item.description.size > 0 %}
-        <div class="description markdown">
-          {{ item.description | markdownify }}
+        {%- if role.description.size > 0 %}
+        <div style="margin-left: 15px" class="description markdown">
+          {{ role.description | markdownify }}
         </div>
         {%- endif %}
+
+        </div>
+
+        {% endfor %}
+
         {%- endif %}
 
       </div>
