@@ -51,7 +51,7 @@ jobs:
         env:
           JEKYLL_ENV: production
       - name: generate pdf
-        run: wkhtmltopdf ./_site/gamedev.html ./_site/gamedev.pdf
+        run: wkhtmltopdf --allow ./_site --no-background --cache-dir ./_site  ./_site/gamedev.html ./_site/gamedev.pdf 
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
