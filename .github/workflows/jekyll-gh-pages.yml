@@ -43,6 +43,8 @@ jobs:
         uses: actions/deploy-pages@v4
       - name: Generate PDF # now, when latest html/css/js was deployed, generate PDF based on it
         run: npm install && npm run generate
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
       - name: Deploy to GitHub Pages # deploy everything again, but include generated PDF file now
         uses: actions/deploy-pages@v4
     environment:
