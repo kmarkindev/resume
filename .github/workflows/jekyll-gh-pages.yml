@@ -42,7 +42,7 @@ jobs:
       - name: Deploy to GitHub Pages # deploy files
         uses: actions/deploy-pages@v4
       - name: Generate PDF # now, when latest html/css/js was deployed, generate PDF based on it
-        run: npm run generate
+        run: npm install && npm run generate
       - name: Deploy to GitHub Pages # deploy everything again, but include generated PDF file now
         uses: actions/deploy-pages@v4
     environment:
