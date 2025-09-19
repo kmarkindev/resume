@@ -14,7 +14,7 @@ await page.bringToFront();
 console.log(`Current working directory: ${process.cwd()}`);
 
 await page.pdf({
-    path: 'testpdf.pdf',
+    path: 'Kirill_Markin_Resume.pdf',
     displayHeaderFooter: false,
     printBackground: true,
     landscape: false,
