@@ -35,16 +35,15 @@ jobs:
           cache: 'npm'
       - name: Setup Pages
         uses: actions/configure-pages@v5
-      - name: Build
+      - name: Build # Build html/css/js files
         uses: actions/jekyll-build-pages@v1
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-      - name: Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages # deploy files
         uses: actions/deploy-pages@v4
-      - name: Generate PDF
+      - name: Generate PDF # now, when latest html/css/js was deployed, generate PDF based on it
         run: npm run generate
-      - name: Upload generated PDF to GH Pages
-      - name: Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages # deploy everything again, but include generated PDF file now
         uses: actions/deploy-pages@v4
     environment:
       name: github-pages
