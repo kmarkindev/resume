@@ -15,7 +15,7 @@ open_graph:
   image: null #/assets/images/profile.png   # path or link to the open graph image
 
 # Style
-date_format: "%Y-%m-%d"     # date format
+date_format: "%B %d, %Y"     # date format
 theme_color: "#1DA1F2"      # your favorite theme color
 contact_delimiter: "·"      # contact delimiter, '·', '/' or '|'
 section_icon: false          # section title icon, true or false
@@ -25,7 +25,8 @@ section_line: solid        # section title line, 'solid', 'dashed' or 'none'
 section_background: false   # section title backound, 'true' or 'false'
 skill_level_icon: lightbulb # skill rate icon, 'heart', 'star', 'circle' or 'lightbulb'
 link_icon: false             # show link icon, 'true' or 'false'
-site_footer: true           # show site footer, 'true' or 'false'
+site_footer: false           # show site footer, 'true' or 'false'
+site_header: true
 
 # Analytics
 analytics:

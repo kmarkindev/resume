@@ -4,6 +4,11 @@
   </head>
   <body>
     {%- if site.open %}
+
+    {% if site.site_header %}
+    {%- include page_header.html %}
+    {% endif %}
+
     <div class="wrapper">
       {%- include basic.html%}
       {%- include profile.html %}

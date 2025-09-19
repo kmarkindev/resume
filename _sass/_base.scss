@@ -300,6 +300,26 @@ small {
   }
 }
 
+.page_header {
+  margin-top: $spacing-unit;
+  color: $text-second-color;
+  width: 100%;
+  display: inline-flex;
+  align-items: baseline;
+  justify-content: center;
+  font-size: $small-font-size;
+
+  i {
+    color: $heart-color;
+  }
+
+  .pdf-download {
+    color: #1DA1F2;
+    margin-right: 25px;
+    text-decoration: strong;
+  }
+}
+
 .footer {
   margin-bottom: $spacing-unit;
   color: $text-second-color;
