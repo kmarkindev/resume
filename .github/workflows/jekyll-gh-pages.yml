@@ -35,7 +35,7 @@ jobs:
       - name: Build
         uses: actions/jekyll-build-pages@v1
       - name: build pdf file
-        run: wkhtmltopdf ./_site/gamedev.html ./_site/gamedev.pdf
+        run: wkhtmltopdf --allow ./_site --no-background --cache-dir ./_site  ./_site/gamedev.html ./_site/gamedev.pdf 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
