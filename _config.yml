@@ -9,7 +9,7 @@ sass/style: compressed
 # Privacy
 open: true                  # show or hide your resume
 allow_search_engines: true  # allow your resume indexing by search engine, 'true' or 'false'
-description: Kirill Markin\'s resume                # your resume description
+description:                # your resume description
 open_graph:
   enable: true                        # enable open graph meta tags
   image: null #/assets/images/profile.png   # path or link to the open graph image
