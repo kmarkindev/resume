@@ -30,8 +30,12 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      - name: install wkhtmltopdf
+        run: sudo debconf-set-selections <<< "man-db/auto-update boolean false" && sudo rm /var/lib/man-db/auto-update && sudo apt-get install xvfb libfontconfig wkhtmltopdf
       - name: Build
         uses: actions/jekyll-build-pages@v1
+      - name: build pdf file
+        run: wkhtmltopdf --allow ./_site --no-background --enable-local-file-access --cache-dir ./_site  ./_site/gamedev.html ./_site/gamedev.pdf 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
