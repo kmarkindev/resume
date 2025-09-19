@@ -1,5 +1,18 @@
 import puppeteer from 'puppeteer';
 
+// Test code
+import fs from 'fs'
+const directoryPath = process.cwd();
+try {
+    const files = fs.readdirSync(directoryPath);
+    console.log(`Files in ${directoryPath}:`);
+    files.forEach(file => {
+        console.log(file);
+    });
+} catch (err) {
+    console.error(`Error reading directory: ${err}`);
+}
+
 const browser = await puppeteer.launch({
     args: ['--no-sandbox'],
 });
