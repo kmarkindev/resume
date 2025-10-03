@@ -4,7 +4,7 @@ meta:
 
 basic:
   name: Kirill Markin                      # name
-  title:                                  # job title
+  title: C++ Rendering Programmer | DirectX 12, Graphics APIs, Game Engines  # job title
   avatar:
     show: false                       # show or hide avatar
     path: /assets/images/profile.png # file path or link to your avatar
@@ -33,7 +33,7 @@ profile:
   order: 1
   title: About Me
   description: |
-    **I'm a developer with nearly 3 years of experience in C++, and close to 6 years of total experience working commercially.**
+    **I'm a developer with 3 years of experience in C++, and nearly 6 years of total commercial experience.**
     Interested in projects that use proprietary engines, Unreal Engine, DirectX, Vulkan, Metal, GNMX/GNM, etc.
 
     **For the past 2 years, I’ve been actively working with graphics APIs and game engines.**
@@ -55,11 +55,12 @@ experience:
 
           tags: Full-time, remote
           description: |
-            Worked on oil-and-gas industry projects: math library and desktop application. 
+            Worked on oil-and-gas industry projects: a math library and a desktop application. 
             
-            + Implemented a Spline Renderer module using OpenGL ES / GLSL that allows SVG images of drill string modules 
-            to bend along a curved drilling trajectory, enabling more accurate visual representation on engineering diagrams.
-            + Optimized 2D and 3D graphics and diagrams by using data batching for GPU submission and implementing a system similar to LOD/Culling for rendered objects.
+            + Implemented a Spline Renderer module using OpenGL ES / GLSL that allows to render SVG images of drill string modules along 
+            curved drilling trajectories, enabling more accurate visual representation on engineering diagrams.
+            + Optimized 2D and 3D graphics and diagrams by using data batching for GPU submission and implementing 
+            a system similar to LOD/Culling for rendered objects.
             + Developed an integration that compiles C# sources into a set of .NET assemblies and uses nethost/hostfxr 
             to execute C# CIL from within a C++ process. This enabled the integration of a large mathematical library written in C#,
             which was used to implement a rare set of features that significantly increased the software's marketability and attracted new users.
@@ -70,7 +71,7 @@ experience:
           date: 03.2020 - 02.2023
           tags: Full-time, remote
           description: |
-            Worked on USA's repossession industry project, primarily back-end services of a large ecosystem. 
+            Worked on a U.S. repossession industry project, primarily back-end services of a large ecosystem. 
             
             + Parallelized the main business process of the service by breaking it into parts that run as separate processes, 
             with the ability to scale the number of processes individually for each client and distribute process execution across multiple servers. 
@@ -93,7 +94,7 @@ project:
         Currently, I'm developing my own **graphics engine built entirely on DirectX 12**.
         So far, it includes: Deferred Rendering, Light Volume-based lighting, Shadow Mapping, Normal Mapping, Emission, HDR/Gamma correction.
         I use RenderDoc and Nsight Systems/Graphics for debugging and profiling. The build process is fully automated with CMake, 
-        which downloads all necessary dependencies (including the Agility SDK). There is an NVTX3 integration, that provides advanced support for NVIDIA Nsight Systems/Graphics.
+        which downloads all necessary dependencies (including the Agility SDK). There is an NVTX3 integration that provides advanced support for NVIDIA Nsight Systems/Graphics.
     
         **You can see the code, GIFs, and screenshots here:** <a href="https://github.com/kmarkindev/krendrr" target="_blank">https://github.com/kmarkindev/krendrr</a>
 
@@ -105,16 +106,16 @@ skill:
 
   items:
     - C++
-    - CMake
-    - Unreal Engine (UE)
-    - SOLID
-    - ООП
     - DirectX 12
     - HLSL
     - OpenGL
     - GLSL
-    - Code Optimization
     - Profiling
+    - Code Optimization
+    - CMake
+    - Unreal Engine (UE)
+    - SOLID
+    - OOP
     - Unit Testing
     - ECS
     - Qt
