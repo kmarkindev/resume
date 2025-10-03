@@ -37,7 +37,7 @@
 
         {%- for role in exp.roles %}
 
-        <div style="margin-left: 15px">
+        <div style="margin-left: 10px">
 
         <div class="row">
           <div class="role">
@@ -53,7 +53,7 @@
         </div>
 
         {%- if role.description.size > 0 %}
-        <div style="margin-left: 15px" class="description markdown">
+        <div class="description markdown">
           {{ role.description | markdownify }}
         </div>
         {%- endif %}
