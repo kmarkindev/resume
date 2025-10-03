@@ -21,12 +21,12 @@ await page.pdf({
     landscape: false,
     format: 'a4',
     waitForFonts: true,
-    /*margin: {
-        top: 20,
-        bottom: 20,
-        left: 20,
-        right: 20
-    }*/
+    margin: {
+        top: 25,
+        bottom: 25,
+        left: 25,
+        right: 25
+    }
 });
 
 await browser.close();
