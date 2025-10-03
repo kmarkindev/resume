@@ -59,7 +59,7 @@ small {
   background: $wrapper-color;
   max-width: $content-width;
   margin: $spacing-unit auto;
-  padding: $spacing-unit * 2;
+  padding: $spacing-unit $spacing-unit * 1.75;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 
   section {
@@ -170,7 +170,7 @@ small {
       flex-basis: 100%;
 
       .name {
-        font-size: $huge-font-size;
+        font-size: $base-font-size * 1.5;
         margin-top: 0;
         margin-bottom: $spacing-unit / 4;
       }
