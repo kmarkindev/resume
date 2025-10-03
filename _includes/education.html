@@ -16,7 +16,7 @@
     {%- if education.items %}
     <div class="items">
       {%- for item in education.items %}
-      <div class="item">
+      <div class="item" style="margin-bottom: 5px">
 
         {%- if item.institution %}
         <div class="row">
@@ -28,18 +28,18 @@
             {%- endif %}
           </div>
           <div class="date">
-            <span>{{ item.date }}</span>
+              <span>{{ item.degree }}</span>
           </div>
         </div>
 
         <div class="row">
           <div class="major">
-            <span>{{ item.major }}</span>
+<!--            <span>{{ item.major }}</span>-->
           </div>
           {%- if item.degree %}
           <div class="degree">
 <!--            <i class="fa-solid fa-graduation-cap"></i>-->
-            <span>{{ item.degree }}</span>
+<!--            <span>{{ item.degree }}</span>-->
           </div>
           {%- endif %}
         </div>

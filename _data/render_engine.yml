@@ -141,14 +141,14 @@ education:
   items:
     - institution: Belarusian State University of Informatics and Radioelectronics (BSUIR)
       link: 'https://www.bsuir.by/'
-      major: Software Engineering
-      degree: Bachelor
+      major: #Software Engineering
+      degree: Software Engineering, Bachelor
       description: |
 
     - institution: Vitebsk State Technological College (VSTC)
-      link: 
-      major: Software Engineering
-      degree: Secondary Professional Education
+      link: 'https://vitgtk.belstu.by/'
+      major: #Software Engineering
+      degree: Software Engineering, Secondary Professional Education
       description: |
 
 certificate:
