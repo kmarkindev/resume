@@ -1,6 +1,6 @@
 {%- assign skill = data.skill %}
 {%- if skill and skill.show %}
-<section class="skill" style="order: {{ skill.order | default: 1 }}">
+<section class="skill" style="margin-bottom: 10px; order: {{ skill.order | default: 1 }}">
   <div class="section-title">
     <i class="section-icon fa-solid fa-toolbox"></i>
     <h2>{{ skill.title }}</h2>

@@ -33,10 +33,11 @@ profile:
   order: 1
   title: About Me
   description: |
-    I'm a developer with nearly 3 years of experience in C++, and close to 6 years of total experience working commercially.
+    **I'm a developer with nearly 3 years of experience in C++, and close to 6 years of total experience working commercially.**
     Interested in projects that use proprietary engines, Unreal Engine, DirectX, Vulkan, Metal, GNMX/GNM, etc.
 
-    For the past 2 years, I’ve been actively working with graphics APIs. I started with OpenGL/GLSL, and for the last six months, I've been working with DirectX 12/HLSL.
+    **For the past 2 years, I’ve been actively working with graphics APIs and game engines.**
+    I started with OpenGL/GLSL, and for the last six months, I've been working with DirectX 12/HLSL.
 
 experience:
   show: true
@@ -47,7 +48,7 @@ experience:
   items:
     - company: Owls' Group
       link: 'http://owlsgroup.net/'
-      location: Minsk, Belarus
+      location: #Minsk, Belarus
       roles:
         - name: C++ Developer
           date: 03.2023 - 08.2025
@@ -59,9 +60,9 @@ experience:
             + Implemented a Spline Renderer module using OpenGL ES / GLSL that allows SVG images of drill string modules 
             to bend along a curved drilling trajectory, enabling more accurate visual representation on engineering diagrams.
             + Optimized 2D and 3D graphics and diagrams by using data batching for GPU submission and implementing a system similar to LOD/Culling for rendered objects.
-            + Developed an integration that compiles C# source code into a set of .NET assemblies and uses nethost/hostfxr 
-            to execute C# code from within a C++ process. This enabled the integration of a large mathematical library written in C#,
-            which was used to implement a rare and critical features that significantly increased the software's marketability abd attracted new users.
+            + Developed an integration that compiles C# sources into a set of .NET assemblies and uses nethost/hostfxr 
+            to execute C# CIL from within a C++ process. This enabled the integration of a large mathematical library written in C#,
+            which was used to implement a rare set of features that significantly increased the software's marketability and attracted new users.
             
             Tech stack: C++, Qt, OpenGL ES, GLSL, CMake, C++/CLI, Win32 API, Conan, SWIG, Google Test, WSL, Linux, hostfxr/nethost
 
@@ -69,9 +70,14 @@ experience:
           date: 03.2020 - 02.2023
           tags: Full-time, remote
           description: |
-            + First
-            + Second
+            Worked on USA's repossession industry project, primarily back-end services of a large ecosystem. 
             
+            + Parallelized the main business process of the service by breaking it into parts that run as separate processes, 
+            with the ability to scale the number of processes individually for each client and distribute process execution across multiple servers. 
+            This effectively allowed for infinite scaling.
+            + Integrated Okta OAuth authorization, enabling centralized user management across all services.
+            
+            Tech stack: PHP, Laravel, JavaScript, JQuery, MySQL, MongoDB, ElasticSearch, Redis, SendGrid, OpenSearch Amazon S3
 
 project:
   show: true
@@ -79,17 +85,17 @@ project:
   title: Rendering Pet-Project
   description:
   items:
-    - name: DirectX 12 Renderer
+    - name: "" #DirectX 12 Renderer
       link:
       tags:
       date:
       description: |
-        Currently, I'm developing my own graphics engine built entirely on DirectX 12.
+        Currently, I'm developing my own **graphics engine built entirely on DirectX 12**.
         So far, it includes: Deferred Rendering, Light Volume-based lighting, Shadow Mapping, Normal Mapping, Emission, HDR/Gamma correction.
         I use RenderDoc and Nsight Systems/Graphics for debugging and profiling. The build process is fully automated with CMake, 
         which downloads all necessary dependencies (including the Agility SDK). There is an NVTX3 integration, that provides advanced support for NVIDIA Nsight Systems/Graphics.
     
-        You can see the code, GIFs, and screenshots here: <a href="https://github.com/kmarkindev/krendrr" target="_blank">https://github.com/kmarkindev/krendrr</a>
+        **You can see the code, GIFs, and screenshots here:** <a href="https://github.com/kmarkindev/krendrr" target="_blank">https://github.com/kmarkindev/krendrr</a>
 
 skill:
   show: true

@@ -47,13 +47,13 @@
             {%- endif %}
           </div>
             <div class="date">
-                <span>{{ role.date }}</span>
+                <strong>{{ role.date }}</strong>
             </div>
 
         </div>
 
         {%- if role.description.size > 0 %}
-        <div class="description markdown">
+        <div style="margin-bottom: 10px" class="description markdown">
           {{ role.description | markdownify }}
         </div>
         {%- endif %}

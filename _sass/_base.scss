@@ -64,7 +64,7 @@ small {
 
   section {
     &:not(:last-child) {
-      margin-bottom: $spacing-unit / 2;
+      margin-bottom: 0px; //$spacing-unit / 2;
     }
 
     .section-title {
@@ -233,8 +233,9 @@ small {
           justify-content: end;
           background-color: #d3d3d347;
           border-radius: 5px;
-          margin: 3px;
-          padding: 3px 10px;
+          margin: 2px;
+          padding: 2px 5px;
+          font-size: 9pt;
 
           .skill-level {
             display: inline-flex;
