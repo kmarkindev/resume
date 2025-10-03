@@ -6,7 +6,7 @@ const browser = await puppeteer.launch({
 const page = await browser.newPage();
 
 await page.setCacheEnabled(false);
-await page.goto('https://kmarkindev.github.io/resume/gamedev', {
+await page.goto('https://kmarkindev.github.io/resume', {
     waitUntil: 'load',
 });
 
