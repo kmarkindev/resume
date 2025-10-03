@@ -191,6 +191,10 @@ small {
           display: inline-flex;
           align-items: baseline;
 
+          a {
+            margin-left: 3px;
+          }
+
           &:not(:last-child)::after {
             content: $contact-delimiter;
             color: $text-third-color;
