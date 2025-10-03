@@ -4,13 +4,13 @@ meta:
 
 basic:
   name: Kirill Markin                      # name
-  title: Unreal Engine 5, Gameplay, C++, Blueprints Developer           # job title
+  title: C++ Render Programmer    # job title
   avatar:
     show: false                       # show or hide avatar
     path: /assets/images/profile.png # file path or link to your avatar
 
 contact:
-  location: Minsk, Belarus  # location, text or markdown link syntax
+  location: Minsk, Belarus (open to relocation)  # location, text or markdown link syntax
   email: kmarkindev@gmail.com     # email address
   phone: #+86-111-2222-3333  # phone number, the format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
   website: #kmarkindev.github.io/portfolio/ #example.com      # site link without schema, like example.com, will automatically prepend "https://"
@@ -33,9 +33,16 @@ profile:
   order: 1
   title: About Me
   description: |
-    ToDo
-    ToDo
-    ToDo
+    I'm a developer with nearly 3 years of experience in C++, and close to 6 years of total experience working commercially.
+    Interested in projects that use proprietary engines, Unreal Engine, DirectX, Vulkan, Metal, GNMX/GNM, etc.
+
+    For the past 2 years, I’ve been actively working with graphics APIs. I started with OpenGL/GLSL, and for the last six months, I've been working with DirectX 12/HLSL.
+    
+    Currently, I'm developing my own graphics engine built entirely on DirectX 12.
+    So far, it includes: Deferred Rendering, Light Volume-based lighting, Shadow Mapping, Normal Mapping, Emission, HDR/Gamma correction.
+    I regularly use RenderDoc and Nsight Systems/Graphics for debugging and profiling.
+    
+    You can see the code, GIFs, and screenshots here: <a href="https://github.com/kmarkindev/krendrr" target="_blank">https://github.com/kmarkindev/krendrr</a>
 
 experience:
   show: true
@@ -49,19 +56,25 @@ experience:
       location: Minsk, Belarus
       roles:
         - name: C++ Developer
-          date: 2023.03 - 2025.08
+          date: 03.2023 - 08.2025
 
           tags: Full-time, remote
           description: |
-            Key responsibilities and achievements in the role.
-            + First
-            + Second
+            Worked on oil-and-gas industry projects: math library and desktop application. 
+            
+            + Implemented a Spline Renderer module using OpenGL ES / GLSL that allows SVG images of drill string modules 
+            to bend along a curved drilling trajectory, enabling more accurate visual representation on engineering diagrams.
+            + Optimized 2D and 3D graphics and diagrams by using data batching for GPU submission and implementing a system similar to LOD/Culling for rendered objects.
+            + Developed an integration that compiles C# source code into a set of .NET assemblies and uses nethost/hostfxr 
+            to execute C# code from within a C++ process. This enabled the integration of a large mathematical library written in C#,
+            which was used to implement a rare and critical features that significantly increased the software's marketability abd attracted new users.
+            
+            Tech stack: C++, Qt, OpenGL ES, GLSL, CMake, C++/CLI, Win32 API, Conan, SWIG, Google Test, WSL, Linux, hostfxr/nethost
 
         - name: PHP Developer
-          date: 2020.03 - 2023.02
+          date: 03.2020 - 02.2023
           tags: Full-time, remote
           description: |
-            Key responsibilities and achievements in the role.
             + First
             + Second
             
@@ -106,9 +119,6 @@ skill:
     - C++
     - CMake
     - Unreal Engine (UE)
-    - Engine Programming
-    - Game Programming
-    - Tools Programming
     - SOLID
     - ООП
     - DirectX 12
@@ -118,6 +128,7 @@ skill:
     - Code Optimization
     - Profiling
     - Unit Testing
+    - ECS
     - Qt
     - wxWidgets
     - Gamedev
