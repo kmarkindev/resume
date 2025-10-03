@@ -22,8 +22,8 @@ await page.pdf({
     format: 'a4',
     waitForFonts: true,
     margin: {
-        top: 25,
-        bottom: 25,
+        top: 30,
+        bottom: 30,
         left: 25,
         right: 25
     }
