@@ -13,7 +13,7 @@ contact:
   location: Minsk, Belarus  # location, text or markdown link syntax
   email: kmarkindev@gmail.com     # email address
   phone: #+86-111-2222-3333  # phone number, the format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
-  website: kmarkindev.github.io/portfolio/ #example.com      # site link without schema, like example.com, will automatically prepend "https://"
+  website: #kmarkindev.github.io/portfolio/ #example.com      # site link without schema, like example.com, will automatically prepend "https://"
   website_name: Portfolio
 
   gender:                   # gender or pronoun
@@ -104,31 +104,33 @@ skill:
 
   items:
     - C++
+    - CMake
     - Unreal Engine (UE)
-    - Blueprints
-    - Scripting
-    - Replication
-    - Network
-    - Gameplay Ability System (GAS)
-    - UMG
-    - CommonUI
-    - Behavior Tree
-    - Unreal Build Tool (UBT)
-    - Automation Test Framework
-    - Plugins
+    - Engine Programming
+    - Game Programming
+    - Tools Programming
     - SOLID
-    - GOF Patterns
-    - OOP
-    - Structures and Algorithms
-    - Linear Algebra
-    - Profiling
-    - GameDev
-    - CPU and GPU optimization
+    - ООП
     - DirectX 12
-    - Multithreading
-    - Perforce
-    - Git
+    - HLSL
+    - OpenGL
+    - GLSL
+    - Code Optimization
+    - Profiling
+    - Unit Testing
+    - Qt
+    - wxWidgets
+    - Gamedev
+    - Docker
     - CI/CD
+    - Rendering
+    - Multithreading
+    - RenderDoc
+    - Nvidia Nsight Systems
+    - Nvidia Nsight Graphics
+    - Scripting Languages
+    - Git
+    - Perforce
 
 education:
   show: true
@@ -138,7 +140,7 @@ education:
     
   items:
     - institution: Belarusian State University of Informatics and Radioelectronics (BSUIR)
-      link: 'https://www.bsuir.by/en/'
+      link: 'https://www.bsuir.by/'
       major: Software Engineering
       degree: Bachelor
       description: |
